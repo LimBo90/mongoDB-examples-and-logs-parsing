@@ -60,7 +60,7 @@ def parseLog(log):
     date, time = arr[TIME][1:].replace(':', ' ',1).split(' ')
     date = date.split('/')
     date = date[2] + '-' + Months[date[1]] + '-' + date[0]
-    record += date + " " + time + DELIMITAR
+    ##record += date + " " + time + DELIMITAR
     
     req = (NULL if (arr[REQUEST] == '-' or arr[REQUEST] == "") else arr[REQUEST])
     record += req + DELIMITAR
