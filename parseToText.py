@@ -47,7 +47,7 @@ USER_AGENT = 9
 
 NO_OF_BATCHES = 4
 
-DELIMITAR = '\x01'
+DELIMITAR = ','
 NULL = "\\N"
 
 def parseLog(log):
